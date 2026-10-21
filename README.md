@@ -75,6 +75,14 @@ The actual segments depend on the scoring and classification rules implemented i
 
 ## Power BI Dashboard
 
+### Dashboard Preview
+
+#### Sales Dashboard
+![Sales Dashboard](screenshots/sales_dashboard.png)
+
+#### RFM Customer Analysis
+![RFM Customer Analysis](screenshots/rfm_customer_analysis.png)
+
 ### Page 1: Sales Dashboard
 
 The first page provides an overview of the online store's sales performance.
@@ -196,3 +204,4 @@ docker run --rm -v "${PWD}:/app" -w /app ecommerce-analytics python notebooks/06
 ```
 
 The project directory is mounted into the container, allowing scripts to read local data and save generated results to your project folder.
+
